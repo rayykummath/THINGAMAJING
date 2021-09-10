@@ -1,0 +1,19 @@
+h2{
+    font-size: 75px;
+}
+
+.btn-warning:hover{
+    background-color: lightgreen;
+}
+
+canvas{
+    animation-name:gradient;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+}
+
+@keyframes gradient{
+    from{box-shadow: 5px 5px 20px cornflowerblue;}
+    to{box-shadow: 5px 5px 20px limegreen;}
+}
